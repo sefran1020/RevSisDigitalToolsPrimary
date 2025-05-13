@@ -1,0 +1,148 @@
+--- INFORME DE ANÁLISIS PARA OBJETIVO 1: EFECTIVIDAD COGNITIVA ---
+================================================================
+
+--- 1. Carga y Preparación de Datos ---
+Dataset 'analisisTodos.csv' cargado con 29 filas y 28 columnas.
+DataFrame para Objetivo 1 creado con 29 estudios y 10 columnas.
+
+--- 2. Procesamiento y Análisis de Tamaños del Efecto ---
+Se encontraron 5 estudios con tamaños del efecto numéricos extraíbles.
+Número total de tamaños del efecto individuales extraídos: 8
+Tamaño del efecto medio general (promedio por estudio): 0.401
+Mediana del tamaño del efecto medio por estudio: 0.270
+Rango del tamaño del efecto medio por estudio: (0.194 - 0.960)
+NOTA: El 'tamaño de efecto medio' promedia diferentes métricas (d, g, η²), lo cual es una simplificación.
+
+--- 3. Análisis de Texto de Resultados Cognitivos ---
+
+Top 10 términos clave en efectividad cognitiva (TF-IDF):
+  - problemsolving (Importancia: 3.13)
+  - students (Importancia: 3.08)
+  - improved (Importancia: 2.93)
+  - math (Importancia: 2.87)
+  - learning (Importancia: 2.51)
+  - understanding (Importancia: 2.37)
+  - thinking (Importancia: 2.07)
+  - enhanced (Importancia: 2.03)
+  - visualization (Importancia: 1.92)
+  - tasks (Importancia: 1.92)
+
+--- 4. Análisis de Relaciones ---
+
+Matriz de Correlación entre Variables Numéricas:
+                         anio  tamano_muestra_num  tamano_efecto_medio
+anio                 1.000000           -0.475728             0.840857
+tamano_muestra_num  -0.475728            1.000000            -0.231461
+tamano_efecto_medio  0.840857           -0.231461             1.000000
+
+Correlación Año vs. Tamaño Efecto Medio:
+  Coeficiente Pearson: 0.841, p-value: 0.074 (No significativo)
+
+Correlación Log(Tamaño Muestra) vs. Tamaño Efecto Medio:
+  Coeficiente Pearson: -0.082, p-value: 0.896 (No significativo)
+
+Análisis del Tamaño del Efecto por Tipo de Intervención:
+(Mostrando tipos con al menos 2 estudios)
+                      mean  median       std  count
+tipo_intervencion                                  
+AR/VR              0.43345    0.29  0.356297      4
+
+No hay suficientes grupos de intervención (con n>=2 válidos) para realizar ANOVA.
+
+--- 5. Análisis de Dominios Matemáticos Abordados ---
+
+Frecuencia de Dominios Matemáticos Mencionados en los Estudios:
+          Dominio Matemático  Frecuencia Menciones
+1    Resolución de Problemas                    20
+5         Geometría/Espacial                     5
+0         Aritmética/Cálculo                     4
+2  Pensamiento Computacional                     4
+6  Numeracy/Sentido Numérico                     2
+3   Estadística/Probabilidad                     1
+4                    Álgebra                     1
+7                  Funciones                     1
+
+--- 6. Análisis de Tendencias Temporales ---
+
+Métricas Anuales de Investigación:
+      numero_estudios  tamano_efecto_medio_anual  tamano_muestra_medio_anual
+anio                                                                        
+2020                7                        NaN                  103.571429
+2021                8                     0.2669                  101.125000
+2022                2                     0.2700                  344.000000
+2023                4                     0.2400                 1313.000000
+2024                7                        NaN                  165.285714
+2025                1                     0.9600                   33.000000
+
+--- 7. Análisis de Red de Co-ocurrencia (Intervención-Dominio) ---
+
+Pares de Co-ocurrencia (Intervención - Dominio) más frecuentes:
+(AR/VR, Resolución de Problemas)                         15
+(AR/VR, Geometría/Espacial)                               4
+(AR/VR, Aritmética/Cálculo)                               3
+(AR/VR, Pensamiento Computacional)                        3
+(AR/VR, Numeracy/Sentido Numérico)                        2
+(Otro/Mixto/No Especificado, Resolución de Problemas)     2
+(Basado en Juegos, Resolución de Problemas)               2
+(AR/VR, Estadística/Probabilidad)                         1
+(AR/VR, Álgebra)                                          1
+(Basado en Juegos, Aritmética/Cálculo)                    1
+(AR/VR, Funciones)                                        1
+(Software/App/Plataforma, Pensamiento Computacional)      1
+(Software/App/Plataforma, Resolución de Problemas)        1
+(Basado en Juegos, Geometría/Espacial)                    1
+
+Interpretación de la Red:
+  - Nodos azules representan Tipos de Intervención.
+  - Nodos rojos representan Dominios Matemáticos.
+  - Una línea (arista) conecta una intervención y un dominio si co-ocurrieron en al menos un estudio.
+  - El grosor de la línea indica la frecuencia de esa co-ocurrencia (más gruesa = más frecuente).
+  - El tamaño del nodo se basa en su número de conexiones (grado).
+  - La red ayuda a visualizar qué intervenciones se aplican comúnmente a qué dominios y a identificar posibles lagunas.
+
+--- 9. HALLAZGOS ESTADÍSTICOS CLAVE Y CONCLUSIONES ---
+======================================================
+Se analizaron 29 estudios relevantes para el Objetivo 1.
+
+1. Análisis Cuantitativo (Tamaños del Efecto):
+  - 5 de 29 (17.2%) reportaron tamaños del efecto extraíbles.
+  - Tamaño del efecto medio general (promedio por estudio): 0.401 (Mediana: 0.270).
+  - Interpretación de magnitud (ES medio por estudio):
+    * Pequeño (<0.2): 20.0% de estudios
+    * Medio (0.2-0.5): 60.0% de estudios
+    * Grande (0.5-0.8): 0.0% de estudios
+    * Muy Grande (>0.8): 20.0% de estudios
+
+  - Efectividad media por Tipo de Intervención (n>=2):
+    * AR/VR: ES Medio = 0.433 (n=4)
+
+2. Análisis Cualitativo (Términos Clave y Dominios):
+  - Términos clave más frecuentes (TF-IDF): problemsolving, students, improved, math, learning.
+  - Dominio matemático más abordado: 'Resolución de Problemas' (20 menciones).
+  - Otros dominios frecuentes: Geometría/Espacial, Aritmética/Cálculo, Pensamiento Computacional
+
+3. Análisis de Red de Co-ocurrencia:
+  - La red visualiza las conexiones entre Tipos de Intervención y Dominios Matemáticos.
+  - Permite identificar combinaciones comunes (e.g., aristas gruesas) y posibles lagunas (nodos con pocas conexiones).
+  - (Ver gráfico '7_red_coocurrencia_interv_dominio.png' para detalles visuales).
+
+4. Tendencias Temporales y Geográficas:
+  - Pico de publicación observado alrededor de 2021 (8 estudios).
+  - Tendencias de ES medio y tamaño de muestra anuales visibles en gráficos.
+  - Mayor concentración de estudios en 'Indonesia' (6).
+
+--- Valor Añadido y Limitaciones ---
+Valor Añadido a la Revisión Sistemática:
+  - Complementa síntesis narrativa con evidencia cuantitativa (ES) y cualitativa (NLP).
+  - Compara efectividad entre tipos de intervención (con pruebas estadísticas si aplica).
+  - Identifica dominios matemáticos clave y lagunas de investigación.
+  - **NUEVO:** Visualiza relaciones entre intervenciones y dominios mediante una red de co-ocurrencia.
+  - Muestra tendencias temporales y distribución geográfica.
+
+Limitaciones del Análisis:
+  - **Tamaño de Muestra:** El número total de estudios (29) y aquellos con ES (5) puede limitar generalizaciones.
+  - **Heterogeneidad:** Variedad en estudios (diseño, población, intervención, medida) dificulta comparaciones.
+  - **Extracción de ES:** Proceso automático y promedio de diferentes métricas son simplificaciones.
+  - **Análisis de Texto/Dominios:** Basado en palabras clave; puede no capturar todo el matiz.
+  - **Red de Co-ocurrencia:** Muestra asociación, no causalidad. Puede ser dispersa si los datos son limitados.
+  - **Posible Sesgo de Publicación:** Puede inflar los ES observados.

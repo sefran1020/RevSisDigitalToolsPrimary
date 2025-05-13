@@ -1,0 +1,34 @@
+OBJETIVO 3: COMPARACIÓN DE HERRAMIENTAS DIGITALES INTERACTIVAS
+============================================================
+
+HALLAZGOS PRINCIPALES:
+- Estudios analizados por categoría: {'Juegos y\nGamificación': 7, 'Software Educativo/\nPlataformas': 19, 'AR/VR': 2, 'Sistemas\nAdaptativos': 6, 'Multimedia\nInteractivo': 8, 'Programación/\nCT': 1, 'Dispositivos\nMóviles': 4}
+- Total estudios: 47
+- Efectividad promedio general (media de % por categoría): 92.4%
+- Efectividad global (total efectivos / total estudios): 89.4%
+
+- Categorías más efectivas (>85%):
+  - Juegos y Gamificación (100.0%, N=7)
+  - AR/VR (100.0%, N=2)
+  - Sistemas Adaptativos (100.0%, N=6)
+  - Programación/ CT (100.0%, N=1)
+  - Multimedia Interactivo (87.5%, N=8)
+
+- Mayor número de estudios:
+  - Software Educativo/ Plataformas (N=19, Efectividad: 84.2%)
+  - Multimedia Interactivo (N=8, Efectividad: 87.5%)
+
+- Reporte de Effect Size varía: 0.0% a 100.0% entre categorías.
+  (Promedio: 60.1%)
+
+RECOMENDACIONES CLAVE (Basado en Datos):
+1. Priorizar categorías con alta efectividad y evidencia creciente: Juegos/Gamificación, Sistemas Adaptativos, Multimedia Interactivo, Software Educativo.
+2. Explorar AR/VR en contextos específicos donde demuestran alta efectividad (aunque N es bajo).
+3. Fomentar el reporte de Effect Sizes estandarizados en todas las categorías.
+4. Considerar el volumen de evidencia (N estudios) al interpretar efectividad (e.g., Software Educativo).
+5. Integrar factores transversales: Diseño pedagógico, Capacitación docente, Retroalimentación.
+
+LIMITACIONES:
+- Número bajo de estudios en algunas categorías (AR/VR, Programación).
+- Variabilidad en tipos de Effect Size reportados.
+- Datos de entrada definidos estáticamente en el script.
