@@ -1,0 +1,63 @@
+ANÁLISIS DE RED DE RELACIONES
+============================
+
+Número de herramientas: 20
+Número total de relaciones: 37
+
+Estadísticas por tipo de relación:
+  Relaciones positivas: 33
+  Relaciones negativas: 4
+  Relaciones mixtas: 0
+
+Herramientas más conectadas:
+  adaptive: 2 conexiones
+  app: 2 conexiones
+  application: 2 conexiones
+  augmented reality: 2 conexiones
+  desktop: 2 conexiones
+  digital: 2 conexiones
+  game: 2 conexiones
+  interactive: 2 conexiones
+  mobile: 2 conexiones
+  multimedia: 2 conexiones
+
+Conexiones de motivación:
+  adaptive -> Motivación: 4 estudios, relación positivo
+  app -> Motivación: 13 estudios, relación positivo
+  application -> Motivación: 1 estudios, relación positivo
+  augmented reality -> Motivación: 1 estudios, relación positivo
+  desktop -> Motivación: 1 estudios, relación positivo
+  digital -> Motivación: 7 estudios, relación positivo
+  game -> Motivación: 5 estudios, relación positivo
+  interactive -> Motivación: 6 estudios, relación positivo
+  mobile -> Motivación: 1 estudios, relación positivo
+  multimedia -> Motivación: 2 estudios, relación positivo
+  online -> Motivación: 1 estudios, relación positivo
+  personalized -> Motivación: 2 estudios, relación positivo
+  platform -> Motivación: 3 estudios, relación positivo
+  program -> Motivación: 1 estudios, relación positivo
+  simulation -> Motivación: 1 estudios, relación positivo
+  smartphone -> Motivación: 2 estudios, relación positivo
+  software -> Motivación: 3 estudios, relación positivo
+  system -> Motivación: 5 estudios, relación positivo
+  tablet -> Motivación: 3 estudios, relación positivo
+  video -> Motivación: 3 estudios, relación positivo
+
+Conexiones de ansiedad:
+  adaptive -> Ansiedad: 1 estudios, relación positivo
+  app -> Ansiedad: 3 estudios, relación positivo
+  application -> Ansiedad: 1 estudios, relación negativo
+  augmented reality -> Ansiedad: 1 estudios, relación positivo
+  desktop -> Ansiedad: 1 estudios, relación negativo
+  digital -> Ansiedad: 1 estudios, relación positivo
+  game -> Ansiedad: 4 estudios, relación positivo
+  interactive -> Ansiedad: 2 estudios, relación positivo
+  mobile -> Ansiedad: 1 estudios, relación positivo
+  multimedia -> Ansiedad: 1 estudios, relación positivo
+  personalized -> Ansiedad: 1 estudios, relación negativo
+  platform -> Ansiedad: 1 estudios, relación positivo
+  smartphone -> Ansiedad: 1 estudios, relación positivo
+  software -> Ansiedad: 1 estudios, relación positivo
+  system -> Ansiedad: 1 estudios, relación positivo
+  tablet -> Ansiedad: 1 estudios, relación positivo
+  video -> Ansiedad: 1 estudios, relación negativo

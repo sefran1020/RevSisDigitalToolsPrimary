@@ -1,0 +1,37 @@
+ANÁLISIS TEMÁTICO
+=================
+
+Conteo de Temas de Motivación:
+- Engagement: 19
+- Gamification: 10
+- Interest: 9
+- Motivation: 9
+- Enjoyment: 6
+- Personalization: 3
+- Social: 2
+
+Conteo de Temas de Ansiedad:
+- Anxiety Reduction: 11
+- Positive Emotions: 3
+- Self-Confidence: 2
+- Comfort: 1
+
+Co-ocurrencia de Temas de Motivación (Pares y Conteo):
+  (Engagement, Motivation): 7
+  (Engagement, Gamification): 6
+  (Enjoyment, Interest): 5
+  (Engagement, Interest): 5
+  (Gamification, Motivation): 5
+  (Gamification, Interest): 4
+  (Interest, Motivation): 4
+  (Enjoyment, Motivation): 4
+  (Enjoyment, Gamification): 3
+  (Engagement, Enjoyment): 3
+  (Engagement, Personalization): 2
+  (Engagement, Social): 1
+
+Co-ocurrencia de Temas de Ansiedad (Pares y Conteo):
+  (Anxiety Reduction, Self-Confidence): 2
+  (Anxiety Reduction, Positive Emotions): 2
+  (Anxiety Reduction, Comfort): 1
+  (Comfort, Self-Confidence): 1

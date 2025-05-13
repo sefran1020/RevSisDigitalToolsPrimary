@@ -1,0 +1,56 @@
+ANÁLISIS TEMPORAL DE RESULTADOS AFECTIVOS
+=======================================
+
+Distribución de estudios por año:
+ Year  Estudios_Motivación  Estudios_Ansiedad  Total_Estudios  Motivación_Positiva  Ansiedad_Positiva  Prop_Motivación_Positiva  Prop_Ansiedad_Positiva
+ 2020                    7                  6              13                    6                  2                  0.857143                0.333333
+ 2021                    8                  7              15                    7                  2                  0.875000                0.285714
+ 2022                    2                  2               4                    2                  1                  1.000000                0.500000
+ 2023                    4                  4               8                    3                  1                  0.750000                0.250000
+ 2024                    7                  6              13                    6                  1                  0.857143                0.166667
+ 2025                    1                  1               2                    1                  0                  1.000000                0.000000
+
+Proporción de resultados positivos por año:
+
+Año 2020.0:
+  Estudios sobre Motivación: 7 (Positivos: 6, 85.7%)
+  Estudios sobre Ansiedad: 6 (Positivos: 2, 33.3%)
+
+Año 2021.0:
+  Estudios sobre Motivación: 8 (Positivos: 7, 87.5%)
+  Estudios sobre Ansiedad: 7 (Positivos: 2, 28.6%)
+
+Año 2022.0:
+  Estudios sobre Motivación: 2 (Positivos: 2, 100.0%)
+  Estudios sobre Ansiedad: 2 (Positivos: 1, 50.0%)
+
+Año 2023.0:
+  Estudios sobre Motivación: 4 (Positivos: 3, 75.0%)
+  Estudios sobre Ansiedad: 4 (Positivos: 1, 25.0%)
+
+Año 2024.0:
+  Estudios sobre Motivación: 7 (Positivos: 6, 85.7%)
+  Estudios sobre Ansiedad: 6 (Positivos: 1, 16.7%)
+
+Año 2025.0:
+  Estudios sobre Motivación: 1 (Positivos: 1, 100.0%)
+  Estudios sobre Ansiedad: 1 (Positivos: 0, 0.0%)
+
+
+Análisis de tendencias (media móvil):
+ Year  Motivación_MA  Ansiedad_MA
+ 2020            NaN          NaN
+ 2021       5.666667     5.000000
+ 2022       4.666667     4.333333
+ 2023       4.333333     4.000000
+ 2024       4.000000     3.666667
+ 2025            NaN          NaN
+
+Distribución de herramientas digitales por año:
+ Year  Mobile  Web  Desktop  Game  VR/AR  Interactive  Other
+ 2020       1    0        1     2      4            1      0
+ 2021       4    0        2     2      6            0      0
+ 2022       1    0        0     1      1            1      0
+ 2023       2    2        0     1      2            1      0
+ 2024       2    0        3     1      2            2      1
+ 2025       1    0        0     0      1            0      0

@@ -1,0 +1,66 @@
+ANÁLISIS DE RESULTADOS AFECTIVOS POR COUNTRY CLEAN
+==================================================
+
+Distribución de estudios por country clean:
+                                                               country_clean  count
+                                                                   Indonesia      6
+                                                                       Spain      3
+                                                                       China      2
+                                                                       Italy      2
+                                                                      Poland      1
+                                                          Ukraine and Israel      1
+                                                             The Netherlands      1
+                                                                      Taiwan      1
+                                                                    Slovakia      1
+                                       Serbia, China, Bosnia and Herzegovina      1
+                                                                     Romania      1
+                                                                        Peru      1
+                                                                    Colombia      1
+Mexico, Taiwan, China, USA, Europe, Other (based on reviewed study origins )      1
+                                                                    Malaysia      1
+                                                                       Japan      1
+                                                                      Israel      1
+                                                                       India      1
+                                                                     Hungary      1
+                                                        United Arab Emirates      1
+
+Resultados de motivación por país/región:
+motivation_outcome                     Positive  Mixed  Negative  Neutral  No Data
+country_clean                                                                     
+China                                         2      0         0        0        0
+Indonesia                                     5      0         0        1        0
+Italy                                         2      0         0        0        0
+Poland                                        1      0         0        0        0
+Serbia, China, Bosnia and Herzegovina         1      0         0        0        0
+Slovakia                                      1      0         0        0        0
+Spain                                         3      0         0        0        0
+Taiwan                                        1      0         0        0        0
+The Netherlands                               1      0         0        0        0
+Ukraine and Israel                            0      0         0        1        0
+
+Resultados de ansiedad por país/región:
+anxiety_outcome                        Positive  Positive (Anxiety Reduced)  Mixed  Negative  Neutral  No Data
+country_clean                                                                                                 
+China                                         0                           0      0         0        2        0
+Indonesia                                     2                           0      0         2        1        1
+Italy                                         0                           0      0         1        1        0
+Poland                                        0                           0      0         0        1        0
+Serbia, China, Bosnia and Herzegovina         0                           0      0         0        0        1
+Slovakia                                      0                           0      0         1        0        0
+Spain                                         0                           0      0         0        3        0
+Taiwan                                        0                           0      0         1        0        0
+The Netherlands                               0                           0      0         0        1        0
+Ukraine and Israel                            1                           0      0         0        0        0
+
+Efectividad promedio por país/región:
+                        country_clean  Motivación  Ansiedad
+                                China    1.000000       0.0
+                            Indonesia    0.833333       0.0
+                                Italy    1.000000      -0.5
+                               Poland    1.000000       0.0
+Serbia, China, Bosnia and Herzegovina    1.000000       NaN
+                             Slovakia    1.000000      -1.0
+                                Spain    1.000000       0.0
+                               Taiwan    1.000000      -1.0
+                      The Netherlands    1.000000       0.0
+                   Ukraine and Israel    0.000000       1.0
